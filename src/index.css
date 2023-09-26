@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header{
+  background-color: skyblue;
+  color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+footer{
+  background-color: turquoise;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+main{
+  padding-top: 20px;
+  text-align: left;
+  background-color: rgb(126, 240, 240);
+  height: 400px;
+  
+}
+
+.item input{
+  padding: 10px;
+  height: 20px;
+  width: 20px; 
+  accent-color: red;
+}
+
+
+.item label {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.item{
+ list-style: none;
+ background-color: rgba(255, 255, 255, 0);
+ padding: 10px;
+ border: 2px solid rgb(26, 152, 161);
+ margin: 20px;
+}
+
+.item svg{
+  float: right;
+  color: rgb(26, 152, 161);
+  transition: 0.5s;
+  height: 20px;
+  width: 20px; 
+}
+.item svg:hover{
+  color: orangered;
+  transition: 0.5s;
+}
+form{
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(127, 255, 212, 0.413);
+}
+
+form button{
+  color: rgb(26, 152, 161);
+  background-color: rgba(0, 255, 170, 0.42);
+  border-color: rgba(0, 255, 170, 0.42);
+  padding: 5px;
+  border-radius: 50px;
+  transform: 0.7s;
+}
+form button:hover{
+  transform: scale(1.1);
+  transform: 0.7s;
+}
+form label{
+  color: rgb(26, 152, 161);
+}
+form input{
+  border: 1px solid rgb(26, 152, 161) ;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+form :placeholder-shown{
+  background-color: rgba(26, 152, 161, 0.297);
+  color: black;
+}
+
+
